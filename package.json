@@ -1,0 +1,32 @@
+{
+  "name": "giftgiver",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.2.0",
+    "react": "^16.2.0",
+    "react-animate-on-scroll": "^1.6.0",
+    "react-bootstrap": "^0.32.1",
+    "react-scripts": "1.1.1",
+    "react-scroll": "^1.7.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest-cli": "^20.0.4",
+    "react-dom": "^16.0.0",
+    "react-test-renderer": "^16.2.0"
+  }
+}
